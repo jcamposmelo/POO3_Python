@@ -15,7 +15,7 @@ class ContaBancaria:
     def mostrar_saldo(self):
         print(f"Saldo atual: {self.saldo}")
 
-# Uso da classe Conta Bancária
+# Modelo que usei para classe Conta Bancária
 conta1 = ContaBancaria("12345", 1000)
 conta1.depositar(500)
 conta1.sacar(200)
